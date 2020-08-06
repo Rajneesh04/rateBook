@@ -1,0 +1,37 @@
+
+.thumbnail img{
+    width: 100%;
+}
+
+#show_image{
+    padding: 0;
+}
+
+.thumbnail .caption-full{
+    padding:9px;
+}
+
+#delete{
+    display: inline;
+}
+
+#login-head{
+    text-align: center
+}
+
+#login-body{
+    width: 30%; 
+    margin: 25px auto;
+}
+
+.thumb-image{
+    max-height: 160px;
+    height: 160px;
+    
+}
+.thumb-image img{
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+}

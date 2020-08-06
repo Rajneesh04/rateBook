@@ -1,12 +1,12 @@
 Install the dependencies from package.json files.
 
-#Style the campgrounds page
+#Style the books page
 *Add a better header/titile
-*Make campgrounds display in a grid
+*Make books display in a grid
 
 #Style the Navbar and Form
 *Add a navbar to all templates
-*Style the new campground form
+*Style the new book form
 
 #Add Mongoose
 *Install and configure nongoose

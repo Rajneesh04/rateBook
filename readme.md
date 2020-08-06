@@ -1,3 +1,5 @@
+Install the dependencies from package.json files.
+
 #Style the campgrounds page
 *Add a better header/titile
 *Make campgrounds display in a grid

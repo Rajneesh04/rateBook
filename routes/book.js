@@ -99,6 +99,12 @@ router.delete("/books/:id",middleware.checkOwnership, function(req, res){
         if(err){
             console.log("Couldn't delete.")
         } else{
+            var comments = book.comments;
+            comments.forEach(function(commentId){
+                Comment.findByIdAndRemove(commentId, function(){
+                    console.log("Comment deleted");
+                });
+            });
             res.redirect("/books");
         }
     });

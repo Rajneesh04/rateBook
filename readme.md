@@ -41,7 +41,7 @@ SHOW        /book/:id        GET     show more info about one books
 EDIT        /book/:id/edit   GET     shows form to edit the preexisting book
 UPDATE      /book/:id        PUT     manipulate the database to update prexisting book
 
-DESTROY     /camp/:id        DELETE  manipulate the database to delete the book
+DESTROY     /book/:id        DELETE  manipulate the database to delete the book
 
 
 CRUD - create read update remove

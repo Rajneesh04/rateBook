@@ -3,6 +3,18 @@ Link to website : https://damp-bastion-60090.herokuapp.com/
 
 
 Install the dependencies from package.json files.
+"dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.27",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1"
+  }
 
 #Style the books page
 *Add a better header/titile
@@ -22,14 +34,14 @@ RESTFUL ROUTES
 
 name         url             verb    description
 ---------------------------------------
-INDEX       /camp            GET     display all campgrounds
-CREATE      /camp            POST    manipulate the database to create new campground
-NEW         /camp/new        GET     show form to add new campground
-SHOW        /camp/:id        GET     show more info about one campground
-EDIT        /camp/:id/edit   GET     shows form to edit the preexisting camps
-UPDATE      /camp/:id        PUT     manipulate the database to update prexisting camps
+INDEX       /book            GET     display all books
+CREATE      /book            POST    manipulate the database to create new books
+NEW         /book/new        GET     show form to add new books
+SHOW        /book/:id        GET     show more info about one books
+EDIT        /book/:id/edit   GET     shows form to edit the preexisting book
+UPDATE      /book/:id        PUT     manipulate the database to update prexisting book
 
-DESTROY     /camp/:id        DELETE  manipulate the database to delete the camp
+DESTROY     /camp/:id        DELETE  manipulate the database to delete the book
 
 
 CRUD - create read update remove

@@ -46,20 +46,3 @@ DESTROY     /book/:id        DELETE  manipulate the database to delete the book
 
 CRUD - create read update remove
 
-
-#clean up the code
-*make separeate files for schemas
-
-#comments
-*create comment model and associate it with campground model
-*show comments
-
-#comments New?Create
-*discuss nested routes
-*add the comment new and create routes
-*add the new comment form
-
-
-#auth
-*create user model
-*configure passport

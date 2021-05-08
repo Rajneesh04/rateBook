@@ -17,15 +17,15 @@ Install the dependencies from package.json files.
     
 **RESTFUL ROUTES**  
   
-name         url             verb    description  
----------------------------------------  
-INDEX       /book            GET     display all books  
-CREATE      /book            POST    manipulate the database to create new books  
-NEW         /book/new        GET     show form to add new books  
-SHOW        /book/:id        GET     show more info about one books  
-EDIT        /book/:id/edit   GET     shows form to edit the preexisting book  
-UPDATE      /book/:id        PUT     manipulate the database to update prexisting book    
-DESTROY     /book/:id        DELETE  manipulate the database to delete the book  
+    name         url             verb    description  
+    ---------------------------------------  
+    INDEX       /book             GET     display all books  
+    CREATE      /book             POST    manipulate the database to create new books  
+    NEW         /book/new         GET     show form to add new books  
+    SHOW        /book/:id         GET     show more info about one books  
+    EDIT        /book/:id/edit    GET     shows form to edit the preexisting book  
+    UPDATE      /book/:id         PUT     manipulate the database to update prexisting book    
+    DESTROY     /book/:id         DELETE  manipulate the database to delete the book  
   
   
 
